@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html, body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #e7e7e7;
+  font-family: Poppins;
+}
+
+nav {
+  width: 100%;
+  height: 8%;
+  left: 0rem;
+  top: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #0f0353;
+  box-shadow: 0rem .3rem .3rem #20212285;
+}
+
+nav h1 {
+  color: #e7e7e7;
+  font-size: 250%;
+  width: 100%;
+}
+
+header#intro{
+  margin-top: 4rem ;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+header#intro h2 {
+  color: #0f0353;
+  font-size: 150%;
+  align-items: center;
+}
+
+header#intro p {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 100%;
+}
+
+section#emocoes{
+    margin: 10% 0 5% 0;
+    text-align: center;
+}
+
+section#botao{
+    text-align: center;
+}
+
+section#botao button{
+  display: inline-block;
+  padding: 1rem 1.2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #e7e7e7;
+  background-color: #422fa3;
+  border: none;
+  border-radius: .7rem;
+  box-shadow: 0 .3rem #999;
+
+}
+
+section#botao button:hover{
+ background-color: #0f0353
+}
+
+section#botao button:active{
+  background-color: #422fa3;
+  box-shadow: 0 .15rem #666;
+  transform: translateY(0.13rem);
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 10rem;
+  background-color: #0f0353;
+  color: #e7e7e7;
+  font-size: 90%;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+

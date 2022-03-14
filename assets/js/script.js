@@ -38,7 +38,7 @@ var frases = [
   "Eu ouvi festa????",
   "...",
   "Espero que fique tudo bem!",
-  "Desconfie de todos, já dizia Isac Newton!",
+  "Desconfie de todos, já dizia Isaac Newton!",
   "Sem sofrimento viu!",
   "Que coisa boaaaa!",
   "Tenta segurar isso ai!"
